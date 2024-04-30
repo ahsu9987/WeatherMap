@@ -10,7 +10,6 @@ import { Container } from "react-bootstrap";
 import { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import close from './Asset/close.png'
-import cloudimg from './Asset/cloud.png';
 import weatherhome from './Asset/weatherhome.png'
 
 const api_key = process.env.REACT_APP_API_KEY;
