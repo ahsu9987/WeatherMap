@@ -13,7 +13,7 @@ import close from './Asset/close.png'
 import cloudimg from './Asset/cloud.png';
 import weatherhome from './Asset/weatherhome.png'
 
-const api_key = '92385f6229582b893338cf1eb8669a20'
+const api_key = process.env.REACT_APP_API_KEY;
 
 function Weather (){
     const [searchcity, setSearchcity] = useState("");
